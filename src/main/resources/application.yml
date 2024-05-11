@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Transport CRM
+  datasource:
+    url: jdbc:postgresql://${DATABASE_HOST:localhost}:${DATABASE_PORT:5432}/${DATABASE_NAME:transport}
+    username: ${DATABASE_USERNAME:postgres}
+    password: ${DATABASE_PASSWORD:postgres}
+    jpa:
+      show-sql: ${DATABASE_SHOW_SQL:false}
+  liquibase:
+    change-log: db/changelog/db-changelog-master.xml
