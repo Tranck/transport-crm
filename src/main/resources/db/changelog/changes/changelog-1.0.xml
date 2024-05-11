@@ -3,8 +3,8 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
     <changeSet id="1.0" author="achernyavsky"/>
-    <include relativeToChangelogFile="true" file="20240504123900_create_table_for_account.xml"/>
-    <include relativeToChangelogFile="true" file="20240504151500_create_table_account_role.xml"/>
     <include relativeToChangelogFile="true" file="20240504152300_create_table_account_role_authority.xml"/>
+    <include relativeToChangelogFile="true" file="20240504151500_create_table_account_role.xml"/>
+    <include relativeToChangelogFile="true" file="20240504123900_create_table_for_account.xml"/>
     <include relativeToChangelogFile="true" file="20240511183500_create_table_account_role_authority_link.xml"/>
 </databaseChangeLog>
